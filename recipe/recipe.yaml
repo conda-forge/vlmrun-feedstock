@@ -30,6 +30,7 @@ requirements:
     - cachetools
     - ipython
     - loguru
+    - openai >=1.0.0
     - opencv >=4.8.0
     - pandas
     - pillow >=10.2.0
