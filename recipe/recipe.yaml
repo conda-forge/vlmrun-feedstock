@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.7.8"
+  version: "0.8.0"
 
 package:
   name: vlmrun
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/v/vlmrun/vlmrun-${{ version }}.tar.gz
-  sha256: e7a63fbef2999c4cd02607dd1465ad2c61b656e269f444e04a3f582ec9629585
+  sha256: 826ac057050ff5af3b54896b6d8fc1926aced28af1a897bc1ec9871852116058
 
 build:
   number: 0
@@ -30,13 +30,13 @@ requirements:
     - cachetools
     - ipython
     - loguru
-    - openai >=1.0.0
+    - openai ==1.109.1
     - opencv >=4.8.0
     - pandas
-    - pillow >=10.2.0
+    - pillow ==11.3.0
     - pydantic <3,>=2.5
     - requests
-    - rich
+    - rich ==14.3.4
     - tabulate
     - tenacity
     - tqdm
