@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.8.0"
+  version: "0.8.1"
 
 package:
   name: vlmrun
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/v/vlmrun/vlmrun-${{ version }}.tar.gz
-  sha256: 826ac057050ff5af3b54896b6d8fc1926aced28af1a897bc1ec9871852116058
+  sha256: 9818930aa63b4a334501345a88c2c3f9739acb1d5c78019da9562648340503a8
 
 build:
   number: 0
