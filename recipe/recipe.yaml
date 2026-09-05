@@ -27,7 +27,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - cachetools
+    - cachetools==7.1.7
     - ipython
     - loguru
     - openai ==1.109.1
